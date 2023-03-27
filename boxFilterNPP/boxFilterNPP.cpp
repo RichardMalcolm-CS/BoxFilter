@@ -106,7 +106,7 @@ int main(int argc, char *argv[])
 
                     // appends boxFiltered tag to file name then sets file name and saves image
                     outfilename_str = "boxFiltered_" + outfilename_str;
-                    saveImage(outfilename_str, oHostDst);
+                    saveImage("filteredImgs/" + outfilename_str, oHostDst);
                     std::cout << "Saved image: " << outfilename_str << std::endl;
 
                     // frees device mem allocation once all files have been processed
