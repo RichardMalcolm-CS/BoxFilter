@@ -1,6 +1,6 @@
 ## BoxFilter on many images
 
-This project is based off of the boxfilter lab. boxFilterNPP.cpp has been updated to handle a large amount of greyscale images in the pgm file format. To accomplish this the code utilizes dirent to look through a directroy, in this case the imagebox folder in the project, then iterates through the files until all files names have been read. It proceeds to parse the file names from the output of readdir then preforms a box filter and output the filtered image.
+This project is based off of the boxfilter lab. boxFilterNPP.cpp has been updated to handle a large amount of greyscale images in the pgm file format. To accomplish this the code utilizes dirent to look through a directory, in this case the imagebox folder in the project, then iterates through the files until all files names have been read. It proceeds to parse the file names from the output of readdir then performs a box filter and outputs the filtered image.
 
 ## Project structure
 
