@@ -110,7 +110,7 @@ int main(int argc, char *argv[])
                     std::cout << "Saved image: " << outfilename_str << std::endl;
 
                     // frees device mem allocation once all files have been processed
-                    if (readdir(dp) == NULL)
+                    if (entry->d_name == NULL)
                     {
                         nppiFree(oDeviceSrc.data());
                         nppiFree(oDeviceDst.data());
